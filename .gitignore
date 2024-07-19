@@ -17,6 +17,7 @@ frontend/.env.local
 frontend/.env.development.local
 frontend/.env.test.local
 frontend/.env.production.local
+frontend/package-lock.json
 
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
@@ -29,3 +30,4 @@ frontend/yarn-error.log*
 
 backend/.idea
 backend/venv/
+backend/app/__pycache__
