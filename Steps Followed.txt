@@ -1,0 +1,8 @@
+Start Docker on Windows
+docker run --name ubuntu-rootfs -it ubuntu:20.04 bash
+apt-get update
+apt-get install -y debootstrap
+debootstrap --variant=minbase focal /rootfs http://archive.ubuntu.com/ubuntu/
+tar -C /rootfs -czf /rootfs.tar.gz .
+exit
+docker cp ubuntu-rootfs:/rootfs.tar.gz .
