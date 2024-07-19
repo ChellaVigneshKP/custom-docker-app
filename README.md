@@ -65,5 +65,6 @@ docker cp ubuntu-rootfs:/rootfs.tar.gz .
 ```bash
 docker-compose up --build
 ```
+- Access the apllication from http://localhost:3000 on Host machine
 ## References
 - [Docker Documentation](https://docs.docker.com/)
