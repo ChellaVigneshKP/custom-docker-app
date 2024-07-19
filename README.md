@@ -6,7 +6,8 @@ This repository contains a sample web application deployed using Docker containe
 **Name:** [Chella Vignesh K P (G23AI2083)](https://github.com/ChellaVigneshKP)
 
 **Roll Number:** G23AI2083
-
+![Docker in Windows](DockerWindows.jpeg)
+![Application in Host](image.png)
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Application Functionality](#application-functionality)
