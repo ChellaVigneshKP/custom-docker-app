@@ -7,7 +7,7 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: postgres
     ports:
-      - "5433:5432"
+      - "49153:5432"
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
       - postgres-data:/var/lib/postgresql/data
@@ -21,13 +21,13 @@ services:
     build:
       context: ./frontend
     ports:
-      - "3000:80"
+      - "49152:80"
 
   backend:
     build:
       context: ./backend
     ports:
-      - "5000:5000"
+      - "49154:5000"
     depends_on:
       db:
         condition: service_healthy
