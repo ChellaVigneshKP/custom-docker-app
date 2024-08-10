@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://backend:5000/api/products';
+const API_URL = '/api/products';
 
 class ProductService {
   getProducts() {
