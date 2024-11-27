@@ -25,7 +25,7 @@ This repository contains a sample web application deployed using Docker containe
 7. [References](#references)
 
 ## Introduction
-This project demonstrates the deployment of a web application using custom Docker images created from scratch. The backend service is built with Flask, the frontend with React, and PostgreSQL is used as the database. The Docker images are built from scratch without using any existing Docker images, ensuring a tailored and lightweight environment.
+This project demonstrates the deployment of a web application using custom Docker images created from scratch. The backend service is built with Flask, the frontend with React, and PostgreSQL is used as the database. The Docker images are built from scratch without using any existing Docker images, ensuring a tailored and lightweight environment. 
 
 ## Application Functionality
 - **Backend (Flask):** Provides a RESTful API for the application.
